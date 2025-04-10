@@ -1,0 +1,3 @@
+print("hihi")
+
+print("Awesome")
