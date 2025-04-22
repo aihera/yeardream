@@ -1,0 +1,49 @@
+import random  # Don't forget this!
+
+# Ask for the user's name
+name = input("Enter your name, brave soul: ")
+
+# A list of epic titles
+titles = ["the Bold", "the Swift", "Dragon Slayer", "Shadow Walker", "the Coder"]
+
+# Pick a random title
+chosen_title = random.choice(titles)
+
+# Print the epic greeting
+print(f"\nWelcome, {name} {chosen_title}!")
+
+# Ask for age
+age = input("May I ask your age? ")
+print(f"AH, {age}... a FINE age for a warrior of your caliber.")
+
+# Ask about birthday
+bday_feeling = input("How was your past birthday? ")
+print(f"I am so glad you shared that. Even legends like you deserve celebration!")
+
+# Ask about the quest
+quest = input("Do you wish to begin your quest? (yes/no) ")
+
+if quest.lower() == "yes":
+    print("✨ Your quest begins at sunrise... Prepare yourself.")
+else:
+    print("Very well. Every warrior chooses their time. I shall wait.")
+
+# Ask about origin
+origin = input("Where are you from, traveler? ")
+print(f"{origin}... A land of mystery and power. I can see why you're destined for greatness.")
+
+# Magic item selection
+magic_items = ["Blue Glasses", "Invisible Glue", "Flying Shoes", "Honey Bear"]
+chosen_magic_item = random.choice(magic_items)
+print(f"\nHere you go, {name} — take the legendary {chosen_magic_item}!")
+
+# Character class selection
+classes = ["Knight", "Wizard", "Rogue", "Bard"]
+chosen_class = input("Choose your class (Knight, Wizard, Rogue, Bard): ")
+print(f"You are now a {chosen_class}. Your destiny awaits.")
+
+import time
+
+print("The quest begins...")
+time.sleep(2)  # waits 2 seconds
+print("You hear footsteps behind you...")

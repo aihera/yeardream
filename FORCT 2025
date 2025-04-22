@@ -1,0 +1,69 @@
+# print("월요일은 설렌다")
+# print("요즘엔 그렇다구")
+# print("일요일은 더 설렌다")
+
+# print(50 + 50) #Result: 100
+# print("50" + "50")  #Result: 5050
+# print([50] + [50])  #Result: 50, 50
+
+# num1 = 23571
+# num2 = (num1*1024)
+# num3 = (num2/243)
+# num4 = (num3+4927819)
+# answer = (num4-829176)
+
+# # print("네가 생각한 답은" answer, "원이야!")
+
+
+# # 3월 서울의 날씨는 다음과 같습니다.
+# seoul = ['8_맑음', '9_맑음', '10_흐리고 비', '11_맑음', '12_맑음', '13_맑음', '14_맑음', '15_맑음']
+
+# # 10일의 날씨 정보만 추출하여 아래 변수에 넣어봅시다!
+# seoul_rain = seoul[2]
+
+# # 제주 날씨는 다음과 같습니다. 
+# jeju = ['8_맑음', '9_맑음', '10_맑음', '11_맑음', '12_흐리고 비', '13_흐리고 비', '14_흐리고 비', '15_맑음', '16_맑음', '17_맑음']
+
+# # 12일부터 14일까지의 날씨 정보들을 추출하여 아래 변수에 넣어봅시다!
+# jeju_rain = jeju[4:7]
+
+# # 여러분이 추출한 날씨 정보를 print()를 이용해서 한번 확인해 보세요!
+# print('서울에서 비가 오는 날씨는 ', seoul_rain)
+# print('제주에서 비가 오는 날씨는 ', jeju_rain)
+
+
+#var = input()
+#print("Girl:", var)
+#print(type(var))
+
+#money = input()
+#money = int(money)
+#money = money*2
+#print(money)
+
+#num = int(input())
+#if num % 2 == 1:
+#    print(num, "It's ODD")
+
+#else :
+#    print(num, "It's EVEN")
+
+# 변수 answer에 수 1~50 중 하나를 넣어봅시다.
+answer = 35
+
+# input을 통해 숫자형으로 입력을 받아서 변수 submit에 저장해 봅시다.
+submit = int(input())
+
+# if-elif-else문으로 Up-Down Game을 구현해 봅시다.
+# 만약 answer보다 submit이 더 크면 "정답보다 더 큰 수를 입력했습니다."
+if answer < submit :
+    print("정답보다 더 큰수를 입력했습니다.")
+
+# 만약 answer보다 submit이 더 작으면 "정답보다 더 작은 수를 입력했습니다."
+
+elif answer > submit :
+    print("정답보다 더 작은 수를 입력했습니다.")
+# 만약 answer와 submit이 같으면 "정답!" 를 출력합니다.
+
+else :
+    print("정답!")   

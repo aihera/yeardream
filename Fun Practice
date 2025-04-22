@@ -1,0 +1,102 @@
+# # Input: additional at-bats and hits
+# additional_at_bats = int(input("Enter additional at-bats: "))
+# additional_hits = int(input("Enter additional hits: "))
+
+# # 2. Initial constants for Ellice Rabbit's stats
+# INITIAL_AT_BATS = 16
+# INITIAL_HITS = 6
+# # Calculate total at-bats and hits
+# total_at_bats = INITIAL_AT_BATS + additional_at_bats
+# total_hits = INITIAL_HITS + additional_hits
+
+# # Calculate batting average
+# batting_average = total_hits / total_at_bats
+
+# # Convert batting average to a percentage and truncate to three decimal places
+# truncated_average = int(batting_average * 1000)
+
+# # Extract the parts: 할, 푼, 리
+# h = truncated_average // 100  # whole number part (할)
+# f = truncated_average % 10    # first decimal part (푼)
+# r = int((batting_average * 1000) % 10)  # second decimal part (리)
+
+# # Output format: 할푼리
+# output = []
+# if h > 0:
+#     output.append(f"{h}할")
+# if f > 0:
+#     output.append(f"{f}푼")
+# if r > 0:
+#     output.append(f"{r}리")
+
+# # Print the result
+# print(' '.join(output))
+# ###################King of Bat##############
+
+# friend = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+# name = input()
+# if name in friend:
+#     print(f'Here I am {name}')
+# else:
+#     print("Nice meeting you")
+
+#####################Who's There?######
+
+# for num in range(1, 31):
+#     str_num = str(num)
+#     if '3' in str_num or '6' in str_num or '9' in str_num:
+#         print('Clap!')
+#     else:
+#         print(str_num)
+
+#################3, 6, 9 Game##############
+
+# total_rice = 0
+# for m in mix:
+#     if m = "쌀"
+#         total_rice = total_rice + 1
+# Print(total_rice)
+# #쌀을 세자!
+
+# korea_airport = []
+# for i in airports:
+#     if '대한민국' in i:
+#         korea_airport.append(i)
+# #대한민국이 들어간 공항을 찾아 빈 리스트에 더하자!
+
+
+
+# i = 1
+# while i < 11:
+#     print("It's been", i, "years so far")
+#     i += 1
+# print("Freedom!")
+
+
+# i = 1
+# while True:
+#     if i == 10:
+#         print("i is 10!")
+#         break
+#     print(i)
+#     i = i + 1
+# #Escape from Repeat "While True + if + break"
+
+
+# shopping_list = ['Pencil', 'Egg', 'Cup', 'Phone', 'Juice']
+# while True:
+#     product = input()
+#     if 'done' == product:
+#         break
+#     else:
+#         shopping_list.append(product)
+
+# print(shopping_list)
+# #Stock the Items until I am DONE
+#######################################
+
+# input_string = input()
+# count = input_string.count("Roxanne")
+# print(count)
+
+Do Burpy Test When you Hear "Roxanne" = [

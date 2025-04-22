@@ -1,0 +1,4 @@
+while True:
+    color = input("What is your favorite color? ")
+    print(f"You said {color}!")
+    break

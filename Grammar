@@ -1,0 +1,79 @@
+# list = []
+# list.append(1)
+# #print(list)
+
+# list.append(4)
+# #print(list)
+
+# list.append(8)
+# #print(list)
+
+# list.insert(0,2)
+# #print(list)
+
+# list.remove(2)
+# #print(list)
+
+# list.sort()
+# #print(list)
+
+# print(1 in list)  #Result = TRUE
+# print(8 in list)  #Result = TRUE
+# #NO '' FOR NUMBERS!!!!
+
+# my_str = "Butterfly"
+# var1 = my_str[6:]
+# var2 = my_str[:6]
+# print(var1, var2)   #Result = fly Butter
+
+# print(len(my_str))
+# #Counting: LEN      #Result = 9
+
+# print('f' in my_str)    #Result = TRUE
+# #Finding 'f' in my_str
+
+# nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# for i in nums:
+#     print(i)
+# #Repeat it!@
+
+#########################################
+
+# for i in range(1, 11)
+#     print(i)
+# #Result: 1 2 3 4 5 6 7 8 9 10
+
+# for i in range(5)
+#     print("High-Five")
+####################Result: High-Five x5
+
+# i = 1
+# while i < 11:
+#     print(i)
+#     i = i + 1
+#######################Result: 1 2 3 4 5 6 7 8 9 10
+
+# a, b, c = input().split()
+# print(a)
+# print(b)
+# print(c)
+###################Many Input at Once with _SPACE!
+
+
+num1, compare, num2 = input().split()
+num1 = int(num1)
+num2 = int(num2)
+if compare == '>':
+    print(num1 > num2)
+elif compare == '<':
+    print(num1 < num2)
+elif compare == '==':
+    print(num1 == num2)
+###Comparison
+
+nums = list(map(int, input().split()))
+average = sum(nums) / len(nums)
+print(int(average))
+######Getting Many Input
+
+
